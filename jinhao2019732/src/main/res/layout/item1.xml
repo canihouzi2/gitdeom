@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+      <ImageView
+          android:id="@+id/item1_imag"
+          android:layout_width="170dp"
+          android:layout_height="170dp" />
+         <TextView
+             android:id="@+id/item1_tete"
+             android:layout_width="200dp"
+             android:layout_height="80dp"
+             android:layout_alignParentRight="true"
+             />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/item1_tete"
+        android:id="@+id/item1_tete1"
+        android:layout_alignRight="@id/item1_tete"
+        />
+</RelativeLayout>
